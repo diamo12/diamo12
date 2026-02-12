@@ -1,7 +1,7 @@
 @extends('layouts.rivet')
 
 @section('content')
-    <div class='rvt-flow rvt-prose rvt-m-top-lg rvt-m-left-lg rvt-m-right-lg'>
+    <div class='rvt-flow rvt-prose rvt-m-top-lg rvt-m-bottom-lg rvt-m-left-lg rvt-m-right-lg'>
         <h2>Welcome to diamo12's personal website!</h2>
         <p>Hello world! This website is a self-hosted project, with the goal of hosting all of my various personal web app projects for the fun of it.</p>
 
