@@ -41,7 +41,7 @@
                                 <nav aria-label="Main" class="rvt-header-menu" data-rvt-disclosure-target="menu" hidden>
                                     <ul class="rvt-header-menu__list">
                                         <li class="rvt-header-menu__item">
-                                        <a class="rvt-header-menu__link" href="{{route('/')}}">Home</a>
+                                        <a class="rvt-header-menu__link" href="{{route('home')}}">Home</a>
                                         </li>
                                         <li class="rvt-header-menu__item">
                                         <a class="rvt-header-menu__link" href="{{route('fallout.Randomizer')}}">Fallout Special Stat Randomizer</a>
