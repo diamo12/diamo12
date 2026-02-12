@@ -43,14 +43,5 @@ function calculate() {
 }
 
 function reset() {
-  var strength = 1, perception = 1, endurance = 1, charisma = 1, intellegence = 1, agility = 1, luck = 1; //Declare each stat as a variable, each initialized to equal 1
-
-  //reset display
-    document.getElementById('strength-output').innerHTML = strength;
-    document.getElementById('perception-output').innerHTML = perception;
-    document.getElementById('endurance-output').innerHTML = endurance;
-    document.getElementById('charisma-output').innerHTML =  charisma;
-    document.getElementById('intellegence-output').innerHTML =  intellegence;
-    document.getElementById('agility-output').innerHTML =  agility;
-    document.getElementById('luck-output').innerHTML =  luck;
+  window.reload();
 }
