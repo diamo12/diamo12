@@ -12,19 +12,19 @@
         <h3>Quick Links:</h3>
         <ul class="rvt-link-hub">
             <li class="rvt-link-hub__item">
-                <a class="rvt-link-hub__link" href="#">
+                <a class="rvt-link-hub__link" href="{{route('about')}}">
                 <span class="rvt-link-hub__text">About</span>
                 <span class="rvt-link-hub__description">Learn more about me, this site, and the various apps that this site contains.</span>
                 </a>
             </li>
             <li class="rvt-link-hub__item">
-                <a class="rvt-link-hub__link" href="#">
+                <a class="rvt-link-hub__link" href="{{route('fallout.Randomizer')}}">
                 <span class="rvt-link-hub__text">Fallout S.P.E.C.I.A.L. Stat Randomizer</span>
                 <span class="rvt-link-hub__description">Be given random S.P.E.C.I.A.L. stats to use in your various Fallout playthroughs!</span>
                 </a>
             </li>
             <li class="rvt-link-hub__item">
-                <a class="rvt-link-hub__link" href="#">
+                <a class="rvt-link-hub__link" href="{{route('tip.Calculator')}}">
                 <span class="rvt-link-hub__text">Tip Calculator</span>
                 <span class="rvt-link-hub__description">Quickly calculate how much you should tip at the restaurant!</span>
                 </a>
