@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>{{ config('app.name', 'diamo12's Site') }}</title>
+        <title>{{ config('app.name', 'diamo12\'s Site') }}</title>
     
         <!--Get Rivet Styles-->
         <link rel="stylesheet" href="https://unpkg.com/rivet-core@2.9.1/css/rivet.min.css">
