@@ -46,6 +46,9 @@
                                         <a class="rvt-header-menu__link" href="{{route('home')}}">Home</a>
                                         </li>
                                         <li class="rvt-header-menu__item">
+                                        <a class="rvt-header-menu__link" href="{{route('about')}}">About</a>
+                                        </li>
+                                        <li class="rvt-header-menu__item">
                                         <a class="rvt-header-menu__link" href="{{route('fallout.Randomizer')}}">Fallout Special Stat Randomizer</a>
                                         </li>
                                         <li class="rvt-header-menu__item rvt-header-menu__item">
