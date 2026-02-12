@@ -11,6 +11,8 @@
 
         @stack('css')
         <link rel="stylesheet" href="{{ asset('/css/rivet-mods.css') }}">
+
+        @stack('head-js')
     </head>
     <body>
         <header class="rvt-header-wrapper">

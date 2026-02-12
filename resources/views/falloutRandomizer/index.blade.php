@@ -1,13 +1,10 @@
-<!doctype html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<meta name="" content "">
-	<title></title>
-	<link rel="stylesheet" href="{{ asset('/css/fallout-special-randomizer.css') }}">
-</head>
+@extends(layouts.rivet)
 
-<body>
+@push('css')
+  <link rel="stylesheet" href="{{ asset('/css/fallout-special-randomizer.css') }}">
+@endpush
+
+@section('content')
   <!-- Brandon's personal project, a Randomizer for your S.P.E.C.I.A.L. stats in Fallout 4 (I got bored and wanted to practice writing javascript)-->
   <div class="special-calc-header-container" id="Container-Head">
   	<div class="special-calc-header-wrapper" id="Wrapper-Head">
@@ -29,8 +26,9 @@
   	  <button class="calc-button" id="btnReset" type="button" onclick="reset();">Reset</button>
     </div>
   </div>
+@endsection
 
-	<script type="text/javascript" src="{{ asset('/js/fallout-special-randomizer.js') }}">
+@push('js')
+  <script type="text/javascript" src="{{ asset('/js/fallout-special-randomizer.js') }}">
 	</script>
-</body>
-</html>
+@endpush

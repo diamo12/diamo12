@@ -1,20 +1,18 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Tip Calculator</title>
-    <!-- Load Styles -->
-    <link rel="stylesheet" href="{{ asset('/css/tip-calc.css') }}">
+@extends('layouts.rivet')
 
-    <!-- Load jQuery -->
-    <script
-			  src="https://code.jquery.com/jquery-4.0.0.js"
-			  integrity="sha256-9fsHeVnKBvqh3FB2HYu7g2xseAZ5MlN6Kz/qnkASV8U="
-			  crossorigin="anonymous"></script>
-  </head>
-  
-  <body>
-    <div class="tip-calc-head">Tip Calculator</div>
+@push('css')
+  <link rel="stylesheet" href="{{ asset('/css/tip-calc.css') }}">
+@endpush
+
+@push('head-js')
+  <script
+		src="https://code.jquery.com/jquery-4.0.0.js"
+		integrity="sha256-9fsHeVnKBvqh3FB2HYu7g2xseAZ5MlN6Kz/qnkASV8U="
+		crossorigin="anonymous"></script>
+@endpush
+
+@section('content')
+  <div class="tip-calc-head">Tip Calculator</div>
     <div class="tip-calc-container">
       <p>How much was your meal?</p>
       <input id="billAmnt" type="text" placeholder="$"></input>
@@ -34,8 +32,8 @@
       <p>Tip Amount:</p>
       <span id="tipDisplay"></span>
     </div>
+@endsection
 
-    <!-- Load Scripts -->
-    <script type="text/javascript" src="{{ asset('/js/tip-calc.js') }}" charset="utf-8"></script>
-  </body>
-</html>
+@push('js')
+  <script type="text/javascript" src="{{ asset('/js/tip-calc.js') }}" charset="utf-8"></script>
+@endpush
