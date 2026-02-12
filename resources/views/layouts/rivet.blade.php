@@ -40,12 +40,13 @@
                                 <!-- Navigation links -->
                                 <nav aria-label="Main" class="rvt-header-menu" data-rvt-disclosure-target="menu" hidden>
                                     <ul class="rvt-header-menu__list">
-                                        <!-- Navigation link without dropdown -->
+                                        <li class="rvt-header-menu__item">
+                                        <a class="rvt-header-menu__link" href="{{route('/')}}">Home</a>
+                                        </li>
                                         <li class="rvt-header-menu__item">
                                         <a class="rvt-header-menu__link" href="{{route('fallout.Randomizer')}}">Fallout Special Stat Randomizer</a>
                                         </li>
-                                        <!-- Navigation link marked as the current page -->
-                                        <li class="rvt-header-menu__item rvt-header-menu__item--current">
+                                        <li class="rvt-header-menu__item rvt-header-menu__item">
                                         <a class="rvt-header-menu__link" href="{{route('tip.Calculator')}}" aria-current="page">Tip Calculator</a>
                                         </li>
                                     </ul>
