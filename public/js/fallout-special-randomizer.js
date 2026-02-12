@@ -43,5 +43,5 @@ function calculate() {
 }
 
 function reset() {
-  window.reload();
+  location.reload();
 }
