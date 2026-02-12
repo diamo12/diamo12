@@ -1,7 +1,7 @@
 @extends('layouts.rivet')
 
 @push('css')
-    <link rel="stylesheet" href="{{ asset('/resources/css/homepage.css') }}">
+    <link rel="stylesheet" href="{{ asset('/css/homepage.css') }}">
 @endpush
 
 @section('content')

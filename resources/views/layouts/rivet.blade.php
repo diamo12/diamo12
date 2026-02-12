@@ -10,7 +10,7 @@
         <link rel="stylesheet" href="https://unpkg.com/rivet-core@2.9.1/css/rivet.min.css">
 
         @stack('css')
-        <link rel="stylesheet" href="{{ asset('/resources/css/rivet-mods.css') }}">
+        <link rel="stylesheet" href="{{ asset('/css/rivet-mods.css') }}">
     </head>
     <body>
         <header class="rvt-header-wrapper">
