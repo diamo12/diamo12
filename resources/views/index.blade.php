@@ -9,10 +9,6 @@
         <h2>Welcome to diamo12's personal website!</h2>
         <p>Hello world! This website is a self-hosted project, with the goal of hosting all of my various personal web app projects for the fun of it. You can find more information about me, or any of the apps on this site on the <a href="{{route('about')}}">about</a> page.</p>
     
-        <h3>Apps:</h3>
-    </div>
-
-    <div class='rvt-flow'>
         <h3>Quick Links:</h3>
         <ul class="rvt-link-hub">
             <li class="rvt-link-hub__item">
