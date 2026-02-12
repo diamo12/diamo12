@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="" content "">
 	<title></title>
-	<link rel="stylesheet" href="/resources/css/fallout-special-randomizer.css">
+	<link rel="stylesheet" href="/public/css/fallout-special-randomizer.css">
 </head>
 
 <body>
@@ -29,7 +29,7 @@
   	</div>
   </div>
 
-	<script type="text/javascript" src="/resources/js/fallout-special-randomizer.js">
+	<script type="text/javascript" src="/public/js/fallout-special-randomizer.js">
 	</script>
 </body>
 </html>
