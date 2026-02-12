@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="" content "">
 	<title></title>
-	<link rel="stylesheet" href="/public/css/fallout-special-randomizer.css">
+	@vite(['resources/css/fallout-special-randomizer.css', 'resources/js/fallout-special-randomizer.js'])
 </head>
 
 <body>
