@@ -1,0 +1,42 @@
+/* CSS for Brandon's personal project */
+.header-text {
+  display: block;
+  position: relative;
+  text-align: center;
+  font-family: Arial;
+  font-size: 6.4vw;
+  font-weight: bold;
+  letter-spacing: .2vw;
+  color: rgb(68, 122, 185);
+  padding: 1.2vw 0;
+  -webkit-text-stroke: .15vw black;
+  text-shadow: .25vw .25vw .6vw rgb(254, 242, 101);
+}
+
+.special-calc-container {
+  display: block;
+  position: relative;
+}
+
+.special-calc-wrapper {
+  text-align: center;
+}
+
+.special-calc-wrapper > p {
+  padding-top: .5vw;
+}
+
+.calc-button {
+  background-color: #337ab7;
+  color: white;
+}
+
+#strength-output, #perception-output, #endurance-output, #charisma-output, #intellegence-output, #agility-output, #luck-output {
+  display: block;
+  position: relative;
+  text-align: center;
+  background-color: white;
+  width: 3vw;
+  padding: .2vw;
+  margin: 0 auto;
+}

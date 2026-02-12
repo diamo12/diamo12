@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="" content "">
+	<title></title>
+	<link rel="stylesheet" href="/resources/css/fallout-special-randomizer.css">
+</head>
+
+<body>
+  <!-- Brandon's personal project, a Randomizer for your S.P.E.C.I.A.L. stats in Fallout 4 (I got bored and wanted to practice writing javascript)-->
+  <div class="special-calc-header-container" id="Container-Head">
+  	<div class="special-calc-header-wrapper" id="Wrapper-Head">
+      <p class="header-text">Fallout 4 S.P.E.C.I.A.L. Stat Randomizer</p>
+  	</div>
+  </div>
+
+  <div class="special-calc-container" id="Container-1">
+  	<div class="special-calc-wrapper" id="Wrapper-1">
+      <p>Strength:</p><span id="strength-output">1</span><br>
+      <p>Perception:</p><span id="perception-output">1</span><br>
+      <p>Endurance:</p><span id="endurance-output">1</span><br>
+      <p>Charisma:</p><span id="charisma-output">1</span><br>
+      <p>Intellegence:</p><span id="intellegence-output">1</span><br>
+      <p>Agility:</p><span id="agility-output">1</span><br>
+      <p>Luck:</p><span id="luck-output">1</span><br>
+      <br>
+      <button class="calc-button" id="btnCalculate" type="button" onclick="calculate();">Calculate</button>
+  	</div>
+  </div>
+
+	<script type="text/javascript" src="/resources/js/fallout-special-randomizer.js">
+	</script>
+</body>
+</html>
