@@ -46,7 +46,7 @@
                                         </li>
                                         <!-- Navigation link marked as the current page -->
                                         <li class="rvt-header-menu__item rvt-header-menu__item--current">
-                                        <a class="rvt-header-menu__link" href="{{route('tip.Calc')}}" aria-current="page">Tip Calculator</a>
+                                        <a class="rvt-header-menu__link" href="{{route('tip.Calculator')}}" aria-current="page">Tip Calculator</a>
                                         </li>
                                     </ul>
                                 </nav>
