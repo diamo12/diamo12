@@ -8,7 +8,7 @@
   font-weight: bold;
   letter-spacing: .2vw;
   color: rgb(68, 122, 185);
-  padding: 1.2vw 0;
+  margin: 0;
   -webkit-text-stroke: .15vw black;
   text-shadow: .25vw .25vw .6vw rgb(254, 242, 101);
 }
@@ -16,6 +16,7 @@
 .special-calc-container {
   display: block;
   position: relative;
+  margin-bottom: 3vw;
 }
 
 .special-calc-wrapper {
