@@ -12,7 +12,7 @@
 @endpush
 
 @section('content')
-  <div class="tip-calc-head">Tip Calculator</div>
+  <div class="tip-calc-head"><h2 style="font-size: 2vw;">Tip Calculator</h2></div>
     <div class="tip-calc-container">
       <p>How much was your meal?</p>
       <input id="billAmnt" type="text" placeholder="$"></input>

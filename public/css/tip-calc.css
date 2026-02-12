@@ -3,11 +3,11 @@
   margin: 0 auto;
   background-color: black;
   color: white;
-  width: 10vw;
+  width: auto;
   text-align: center;
   padding: .5vw;
-  border-top-right-radius: 1vw;
-  border-top-left-radius: 1vw;
+  border-bottom-right-radius: 1vw;
+  border-bottom-left-radius: 1vw;
 }
 
 .tip-calc-container {
@@ -15,7 +15,7 @@
   margin: 0 auto;
   background-color: white;
   color: black;
-  width: 10vw;
+  width: auto;
   text-align: center;
   padding: .5vw;
   border-bottom-right-radius: 1vw;
