@@ -9,6 +9,7 @@
   letter-spacing: .2vw;
   color: rgb(68, 122, 185);
   margin: 0;
+  padding: 0;
   -webkit-text-stroke: .15vw black;
   text-shadow: .25vw .25vw .6vw rgb(254, 242, 101);
 }
