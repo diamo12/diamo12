@@ -6,3 +6,7 @@ body {
 main {
   flex: 1;
 }
+
+.rvt-footer-base {
+  color: #004f80 !important;
+}
