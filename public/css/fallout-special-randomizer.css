@@ -28,10 +28,10 @@
   padding-top: .5vw;
 }
 
-.calc-button {
+/* .calc-button {
   background-color: #337ab7;
   color: white;
-}
+} */
 
 #strength-output, #perception-output, #endurance-output, #charisma-output, #intellegence-output, #agility-output, #luck-output {
   display: block;

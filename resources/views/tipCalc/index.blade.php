@@ -27,7 +27,7 @@
         <option value="0.05">5&#37; &#45; Terrible</option>
       </select>
       <br>
-      <button id="btnCalculate" type="button">Calculate</button>
+      <button class="rvt-button" id="btnCalculate" type="button">Calculate</button>
       <br><br>
       <p>Tip Amount:</p>
       <span id="tipDisplay"></span>

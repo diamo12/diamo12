@@ -22,8 +22,8 @@
       <p>Agility:</p><span id="agility-output">5</span><br>
       <p>Luck:</p><span id="luck-output">5</span><br>
       <br>
-      <button class="calc-button" id="btnCalculate" type="button" onclick="calculate();">Calculate</button>
-  	  <button class="calc-button" id="btnReset" type="button" onclick="reset();">Reset</button>
+      <button class="rvt-button" id="btnCalculate" type="button" onclick="calculate();">Calculate</button>
+  	  <button class="rvt-button" id="btnReset" type="button" onclick="reset();">Reset</button>
     </div>
   </div>
 @endsection
