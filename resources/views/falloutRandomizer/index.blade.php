@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="" content "">
 	<title></title>
-	@vite(['resources/css/fallout-special-randomizer.css', 'resources/js/fallout-special-randomizer.js'])
+	<link rel="stylesheet" href="{{ asset('/resources/css/fallout-special-randomizer.css') }}">
 </head>
 
 <body>
@@ -29,7 +29,7 @@
   	</div>
   </div>
 
-	<script type="text/javascript" src="/public/js/fallout-special-randomizer.js">
+	<script type="text/javascript" src="{{ asset('/resources/js/fallout-special-randomizer.js') }}">
 	</script>
 </body>
 </html>
