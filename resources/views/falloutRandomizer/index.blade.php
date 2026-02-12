@@ -1,4 +1,4 @@
-@extends(layouts.rivet)
+@extends('layouts.rivet')
 
 @push('css')
   <link rel="stylesheet" href="{{ asset('/css/fallout-special-randomizer.css') }}">
