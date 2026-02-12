@@ -5,7 +5,7 @@ var min = 1; //min amount of available points to distribute
 
 //Calculate function to randomize each value, then check to make sure all values add to 28.
 function calculate() {
-  var strength = 1, perception = 1, endurance = 1, charisma = 1, intellegence = 1, agility = 1, luck = 1; //Declare each stat as a variable, each initialized to equal 1
+  var strength = 5, perception = 5, endurance = 5, charisma = 5, intellegence = 5, agility = 5, luck = 5; //Declare each stat as a variable, each initialized to equal 5
 
   while (strength + perception + endurance + charisma + intellegence + agility + luck !== limit) {
     //get a randomized whole number between 1 (min) and 21 (max)
@@ -41,7 +41,7 @@ function calculate() {
 }
 
 function reset() {
-  var strength = 1, perception = 1, endurance = 1, charisma = 1, intellegence = 1, agility = 1, luck = 1;
+  var strength = 5, perception = 5, endurance = 5, charisma = 5, intellegence = 5, agility = 5, luck = 5;
 
   document.getElementById('strength-output').innerHTML = strength;
   document.getElementById('perception-output').innerHTML = perception;
