@@ -26,7 +26,8 @@
       <p>Luck:</p><span id="luck-output">1</span><br>
       <br>
       <button class="calc-button" id="btnCalculate" type="button" onclick="calculate();">Calculate</button>
-  	</div>
+  	  <button class="calc-button" id="btnReset" type="button" onclick="reset();">Reset</button>
+    </div>
   </div>
 
 	<script type="text/javascript" src="{{ asset('/js/fallout-special-randomizer.js') }}">
