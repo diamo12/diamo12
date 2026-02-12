@@ -14,13 +14,13 @@
 
   <div class="special-calc-container" id="Container-1">
   	<div class="special-calc-wrapper" id="Wrapper-1">
-      <p>Strength:</p><span id="strength-output">5</span><br>
-      <p>Perception:</p><span id="perception-output">5</span><br>
-      <p>Endurance:</p><span id="endurance-output">5</span><br>
-      <p>Charisma:</p><span id="charisma-output">5</span><br>
-      <p>Intellegence:</p><span id="intellegence-output">5</span><br>
-      <p>Agility:</p><span id="agility-output">5</span><br>
-      <p>Luck:</p><span id="luck-output">5</span><br>
+      <p>Strength:</p><span id="strength-output">5</span>
+      <p>Perception:</p><span id="perception-output">5</span>
+      <p>Endurance:</p><span id="endurance-output">5</span>
+      <p>Charisma:</p><span id="charisma-output">5</span>
+      <p>Intellegence:</p><span id="intellegence-output">5</span>
+      <p>Agility:</p><span id="agility-output">5</span>
+      <p>Luck:</p><span id="luck-output">5</span>
       <br>
       <button class="rvt-button" id="btnCalculate" type="button" onclick="calculate();">Calculate</button>
   	  <button class="rvt-button" id="btnReset" type="button" onclick="reset();">Reset</button>
