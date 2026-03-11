@@ -29,6 +29,12 @@
                 <span class="rvt-link-hub__description">Quickly calculate how much you should tip at the restaurant!</span>
                 </a>
             </li>
+            <li class="rvt-link-hub__item">
+                <a class="rvt-link-hub__link" href="{{route('issTracker')}}">
+                <span class="rvt-link-hub__text">ISS Tracker</span>
+                <span class="rvt-link-hub__description">A python script that will get the current ISS data and load it onto the page.</span>
+                </a>
+            </li>
         </ul>
     </div>
 @endsection

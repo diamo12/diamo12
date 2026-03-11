@@ -54,6 +54,9 @@
                                         <li class="rvt-header-menu__item rvt-header-menu__item">
                                         <a class="rvt-header-menu__link" href="{{route('tip.Calculator')}}" aria-current="page">Tip Calculator</a>
                                         </li>
+                                        <li class="rvt-header-menu__item rvt-header-menu__item">
+                                        <a class="rvt-header-menu__link" href="{{route('issTracker')}}" aria-current="page">ISS Tracker</a>
+                                        </li>
                                     </ul>
                                 </nav>
                             </div>

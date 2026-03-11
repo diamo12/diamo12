@@ -24,5 +24,8 @@
 
         <h4><a href="{{route('tip.Calculator')}}">Tip Calculator</a></h4>
         <p>Pretty self explanitory, takes the total of the bill and your opinion on your service (becomes tip percentage) and calculates how much you should tip based on that info.</p>
+    
+        <h4><a href="{{route('issTracker')}}">ISS Tracker</a></h4>
+        <p>Opening this page runs a python script that retrieves the most current data from the ISS, and displays it on the page.</p>
     </div>
 @endsection
