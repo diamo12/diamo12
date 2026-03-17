@@ -8,7 +8,7 @@
 @push('js')
 <script type="text/javascript">
     var timeline = document.getElementById('guestbook-logs');
-    var results = "";
+    let results = "";
     //get data
     fetchGuestbookData().then(value => {
         console.log(value);
