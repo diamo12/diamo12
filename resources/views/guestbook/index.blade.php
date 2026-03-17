@@ -7,7 +7,7 @@
 
 @push('js')
 <script type="text/javascript">
-    var timeline = document.getElementByID('guestbook-logs');
+    var timeline = document.getElementById('guestbook-logs');
     //get data
     var results = '';
 
