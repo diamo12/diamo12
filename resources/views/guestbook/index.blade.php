@@ -18,7 +18,14 @@
         console.log(dataLength);
         //for each guestbook log, update template and append to guestbook-logs timeline component in content.
         for (let i = 0; i < dataLength; i++) {
-            console.log(data[i]);
+            //console.log(data[i]);
+            let id = data[i].id;
+            let name = data[i].name;
+            let website_url = data[i].website_url;
+            let message = data[i].message;
+            let created_at = data[i].created_at;
+            console.log(id);
+            console.log(name);
         }
     });
 
