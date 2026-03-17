@@ -2,7 +2,7 @@
 
 @section('content')
 <div class="rvt-prose">
-    <p>Welcome to the Guestbook! Read the entries by other visitors, or create your own entry! (create page coming soon, for now send requests to me and I will add them as I'm able.)</p> <!--<a href='{{route('guestbook.create')}}'>-->
+    <p>Welcome to the Guestbook! Read the entries by other visitors, or create your own entry! (create page coming soon, for now send requests to me and I will add them as I'm able.)</p>
 </div>
 <div class="rvt-timeline rvt-m-all-md" id="guestbook-logs">
 </div>
