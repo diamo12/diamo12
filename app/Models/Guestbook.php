@@ -13,5 +13,7 @@ class Guestbook extends Model
         'name',
         'website-url',
         'message',
+        'created_at',
+        'updated_at'
     ];
 }
