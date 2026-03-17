@@ -34,8 +34,9 @@
                 .replace('{website_url}', website_url)
                 .replace('{message}', message);
 
-            timeline.innerHtml = results;
         }
+
+        timeline.innerHtml = results;
     });
 
     //utility functions
