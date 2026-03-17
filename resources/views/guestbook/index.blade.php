@@ -28,6 +28,8 @@
             let message = data[i].message;
             let created_at = data[i].created_at;
 
+            console.log(website_url);
+
             results += template.replace('{id}', id)
                 .replace('{name}', name)
                 .replace('{created_at}', created_at)
