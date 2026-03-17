@@ -9,7 +9,7 @@
 <script type="text/javascript" defer>
     var timeline = document.getElementById('guestbook-logs').innerHtml;
     //set template
-    let template = "<div class=\"rvt-timeline__item\"><div class=\"rvt-timeline__marker\" aria-hidden=\"true\"></div><div class=\"rvt-timeline__content\"><h2 class=\"rvt-timeline__heading\">ID:{id} Name:{name}</h2><span class=\"rvt-timeline__date\">{created_at}</span><p>{website-url}<br/>{message}</p></div></div>";
+    let template = "<div class=\"rvt-timeline__item\"><div class=\"rvt-timeline__marker\" aria-hidden=\"true\"></div><div class=\"rvt-timeline__content\"><h2 class=\"rvt-timeline__heading\">ID:{id} Name:{name}</h2><span class=\"rvt-timeline__date\">{created_at}</span><p>{website}<br/>{message}</p></div></div>";
     
     let results = '';
     
@@ -28,18 +28,18 @@
             let message = data[i].message;
             let created_at = data[i].created_at;
 
-            console.log(website_url);
-
             results += template.replace('{id}', id)
                 .replace('{name}', name)
                 .replace('{created_at}', created_at)
-                .replace('{website_url}', website_url)
+                .replace('{website}', website_url)
                 .replace('{message}', message);
 
         }
-        console.log(results);
-        timeline = results;
+        
     });
+
+    console.log(results);
+    timeline = results;
 
     //utility functions
     async function fetchGuestbookData() {
