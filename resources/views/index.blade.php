@@ -18,6 +18,12 @@
                 </a>
             </li>
             <li class="rvt-link-hub__item">
+                <a class="rvt-link-hub__link" href="{{route('guestbook.index')}}">
+                <span class="rvt-link-hub__text">Guestbook</span>
+                <span class="rvt-link-hub__description">A digital guestbook for you to sign when you visit this site!</span>
+                </a>
+            </li>
+            <li class="rvt-link-hub__item">
                 <a class="rvt-link-hub__link" href="{{route('fallout.Randomizer')}}">
                 <span class="rvt-link-hub__text">Fallout S.P.E.C.I.A.L. Stat Randomizer</span>
                 <span class="rvt-link-hub__description">Be given random S.P.E.C.I.A.L. stats to use in your various Fallout playthroughs!</span>

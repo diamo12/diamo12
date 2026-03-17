@@ -19,6 +19,9 @@
         <h3>App List</h3>
         <p>Below is a list of all of the apps on this site and what they do:</p>
 
+        <h4><a href="{{route('guestbook.index')}}">Guestbook</a></h4>
+        <p>A digital guestbook for you to sign when you visit this site!</p>
+    
         <h4><a href="{{route('fallout.Randomizer')}}">Fallout S.P.E.C.I.A.L. Stat Randomizer</a></h4>
         <p>Will generate a random set of numbers to use for your S.P.E.C.I.A.L. stats in Fallout (works for Fallout 3, 4, and New Vegas).</p>
 

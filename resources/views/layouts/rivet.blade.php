@@ -48,6 +48,9 @@
                                         <li class="rvt-header-menu__item">
                                         <a class="rvt-header-menu__link" href="{{route('about')}}">About</a>
                                         </li>
+                                        <li class="rvt-header-menu__item">
+                                        <a class="rvt-header-menu__link" href="{{route('guestbook.index')}}">Guestbook</a>
+                                        </li>
                                         <!--Todo: add more navigation links for web revival related info-->
                                         <li class="rvt-header-menu__item">
                                             <div class="rvt-header-menu__dropdown rvt-dropdown" data-rvt-dropdown="primary-nav-1">
