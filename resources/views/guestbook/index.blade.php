@@ -17,7 +17,7 @@
     if(results!=null) {
         //for each guestbook log, update template and append to guestbook-logs timeline component in content.
         
-        console.log(results);
+        console.log(results.value);
         
         // results.foreach((result, index) => {
         //     console.log(`Element at index ${index} is ${number}`);
