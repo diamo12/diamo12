@@ -12,7 +12,7 @@
 
         <p>Speaking of Minecraft, I'm also planning to host Minecraft servers (one for Java edition and one for Bedrock edition) from this computer. Eventually, you'll be able to use diamo12.net to connect to a Minecraft server! I'll make a dedicated Minecraft page with more information once I get them working.</p>
 
-        <p>Like I stated above, I'm just doing this for fun; it's something to do when I get bored, and now I have a way to access these apps whenever I want to use them thanks to the domain name.</p>
+        <p>Like I stated above, I'm just doing this for fun; it's something to do when I get bored, and now I have a way to access these apps whenever I want to use them thanks to the domain name. I also just recently learned about the <a href="https://wiki.melonland.net/web_revival">"Web Revival" movement</a>, and I want to be a part of it with this website!</p>
 
         <p>The code for this site is hosted on <a href="https://github.com/diamo12/diamo12">Github</a>, which includes a Readme with more info on how this website is setup and works on the back end, as well as licensing for the code itself.</p>
 

@@ -14,6 +14,12 @@ class GuestbookResource extends JsonResource
      */
     public function toArray(Request $request): array
     {
-        return parent::toArray($request);
+        return [
+            'id' => $this->id,
+            'name' => $this->name,
+            'website-url' => $this->website-url,
+            'message' => $this->message,
+            'timestamps' => $this->timestamps,
+        ];
     }
 }

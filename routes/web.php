@@ -14,6 +14,10 @@ Route::get('/issTracker', function () {
     return view('issTracker');
 })->name('issTracker');
 
+Route::get('/guestbook-logs', function () {
+    return GuestbookResource::collection(Guestbook::all());
+});
+
 Route::get('/fallout-randomizer', 'App\Http\Controllers\falloutRandomizer\FalloutRandomizerController@index')->name('fallout.Randomizer');
 Route::get('/tip-calc', 'App\Http\Controllers\tipCalc\tipCalcController@index')->name('tip.Calculator');
 
