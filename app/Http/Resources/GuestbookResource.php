@@ -19,7 +19,8 @@ class GuestbookResource extends JsonResource
             'name' => $this->name,
             'website_url' => $this->website_url,
             'message' => $this->message,
-            'timestamps' => $this->timestamps,
+            'created_at' => $this->created_at,
+            'updated_at' => $this->updated_at,
         ];
     }
 }
