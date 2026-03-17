@@ -11,7 +11,7 @@
     var results = "";
     //get data
     fetchGuestbookData().then(value => {
-        results = value;
+        console.log(value);
     });
 
     //set template
