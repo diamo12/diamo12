@@ -17,8 +17,7 @@ Route::get('/issTracker', function () {
 })->name('issTracker');
 
 Route::get('/guestbook-logs', function () {
-    // return Guestbook::all()->toResourceCollection();
-    return new GuestbookResource(Guestbook::all());
+    return Guestbook::all()->toGuestbookResource();
 });
 
 Route::get('/fallout-randomizer', 'App\Http\Controllers\falloutRandomizer\FalloutRandomizerController@index')->name('fallout.Randomizer');
