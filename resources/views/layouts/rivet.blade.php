@@ -52,13 +52,13 @@
                                         <li class="rvt-header-menu__item">
                                             <div class="rvt-header-menu__dropdown rvt-dropdown" data-rvt-dropdown="primary-nav-1">
                                                 <div class="rvt-header-menu__group">
-                                                <!-- Link that appears in header -->
-                                                <a class="rvt-header-menu__link" href="#">Tools</a>
-                                                <!-- Button that shows/hides dropdown links -->
-                                                <button aria-expanded="false" class="rvt-dropdown__toggle rvt-header-menu__toggle" data-rvt-dropdown-toggle="primary-nav-1">
-                                                    <span class="rvt-sr-only">More sub-navigation links</span>
-                                                    <svg class="rvt-global-toggle__open" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">  <path d="m15.146 6.263-1.292-1.526L8 9.69 2.146 4.737.854 6.263 8 12.31l7.146-6.047Z"/></svg>
-                                                </button>
+                                                    <!-- Link that appears in header -->
+                                                    <a class="rvt-header-menu__link" href="#">Tools</a>
+                                                    <!-- Button that shows/hides dropdown links -->
+                                                    <button aria-expanded="false" class="rvt-dropdown__toggle rvt-header-menu__toggle" data-rvt-dropdown-toggle="primary-nav-1">
+                                                        <span class="rvt-sr-only">More sub-navigation links</span>
+                                                        <svg class="rvt-global-toggle__open" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">  <path d="m15.146 6.263-1.292-1.526L8 9.69 2.146 4.737.854 6.263 8 12.31l7.146-6.047Z"/></svg>
+                                                    </button>
                                                 </div>
                                                 <!-- Dropdown menu -->
                                                 <div class="rvt-header-menu__submenu rvt-dropdown__menu rvt-dropdown__menu--right" data-rvt-dropdown-menu="primary-nav-1" hidden>
@@ -68,10 +68,10 @@
                                                         <a class="rvt-header-menu__link" href="{{route('fallout.Randomizer')}}">Fallout Special Stat Randomizer</a>
                                                         </li>
                                                         <li class="rvt-header-menu__item">
-                                                        <a class="rvt-header-menu__link" href="{{route('tip.Calculator')}}" aria-current="page">Tip Calculator</a>
+                                                        <a class="rvt-header-menu__link" href="{{route('tip.Calculator')}}">Tip Calculator</a>
                                                         </li>
                                                         <li class="rvt-header-menu__item">
-                                                        <a class="rvt-header-menu__link" href="{{route('issTracker')}}" aria-current="page">ISS Tracker</a>
+                                                        <a class="rvt-header-menu__link" href="{{route('issTracker')}}">ISS Tracker</a>
                                                         </li>
                                                     </ul>
                                                 </div>

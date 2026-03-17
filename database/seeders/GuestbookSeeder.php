@@ -14,7 +14,7 @@ class GuestbookSeeder extends Seeder
     public function run(): void
     {
         //
-        Guestbook::insert([
+        Guestbook::create([
             [
                 'id' => 0,
                 'name' => 'diamo12',
