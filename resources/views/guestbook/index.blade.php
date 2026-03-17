@@ -36,8 +36,7 @@
         //alert(url);
         let request = new XMLHttpRequest();
 
-        request.open('GET', 'https://diamo12.net/guestbook-logs', false);
-        request.responseType = 'json';
+        request.open('GET', 'https://diamo12.net/guestbook-logs');
         request.onreadystatechange = function(){
             if(request.readyState == 4 && request.status == 200){
                 results = JSON.parse(request.responseText);
