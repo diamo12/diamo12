@@ -14,9 +14,11 @@
     fetchGuestbookData().then(value => {
         console.log(value);
         console.log(value.data);
-        data = JSON.parse(value.data);
-        console.log(data);
+        data = value.data;
         //for each guestbook log, update template and append to guestbook-logs timeline component in content.
+        data.foreach((object, index) => {
+            console.log(object);
+        });
     });
 
     //utility functions
