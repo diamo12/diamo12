@@ -14,7 +14,7 @@
     //set template
     let template = "<div class=\"rvt-timeline__item\"><div class=\"rvt-timeline__marker\" aria-hidden=\"true\"></div><div class=\"rvt-timeline__content\"><h2 class=\"rvt-timeline__heading\">{name}</h2><span class=\"rvt-timeline__date\">{website-url}</span><p>{message}</p></div></div>";
 
-    loadJSON();
+    fetchGuestbookData();
 
     if(results!=null) {
         //for each guestbook log, update template and append to guestbook-logs timeline component in content.
@@ -32,19 +32,21 @@
     }
 
     //utility functions
-    function loadJSON(){
-        //alert(url);
-        let request = new XMLHttpRequest();
+    async function fetchGuestbookData() {
+        const url = '{{route('guestbook-logs')}}'; // The URL defined in your Laravel routes
 
-        request.open('GET', '{{route('guestbook-logs')}}');
-        request.onreadystatechange = function(){
-            if(request.readyState == 4 && request.status == 200){
-                results = JSON.parse(request.responseText);
-            }else{
-                results = null;
+        try {
+            const response = await fetch(url);
+            if (!response.ok) {
+                throw new Error(`HTTP error! Status: ${response.status}`);
             }
-        };
-        request.send();
+            const jsonData = await response.json(); // Parse the JSON data into a JS object
+            console.log(jsonData); // Use the data
+            
+
+        } catch (error) {
+            console.error('Error fetching data:', error);
+        }
     }
 </script>
 @endpush
