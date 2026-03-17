@@ -40,7 +40,8 @@
             if (!response.ok) {
                 throw new Error(`HTTP error! Status: ${response.status}`);
             }
-            results = await response.json(); // Parse the JSON data into a JS object
+            const jsonData = await response.json(); // Parse the JSON data into a JS object
+            results = jsonData;
         } catch (error) {
             console.error('Error fetching data:', error);
         }
