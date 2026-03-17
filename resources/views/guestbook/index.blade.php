@@ -35,7 +35,7 @@
                 .replace('{message}', message);
 
         }
-
+        console.log(results);
         timeline.innerHtml = results;
     });
 
