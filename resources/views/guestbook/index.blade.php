@@ -36,6 +36,7 @@
 
         }
         console.log(results);
+        console.log(timeline);
         timeline.innerHtml = results;
     });
 
