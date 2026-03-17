@@ -1,14 +1,14 @@
 @extends('layouts.rivet')
 
 @section('content')
-<div class="rvt-timeline" id="guestbook-logs">
+<div class="rvt-timeline rvt-m-all-md" id="guestbook-logs">
 </div>
 @endsection
 
 @push('js')
 <script type="text/javascript" defer>
     //set template
-    let template = "<div class=\"rvt-timeline__item\"><div class=\"rvt-timeline__marker\" aria-hidden=\"true\"></div><div class=\"rvt-timeline__content\"><h2 class=\"rvt-timeline__heading\">ID:{id} Name:{name}</h2><span class=\"rvt-timeline__date\">{created_at}</span><p>{website}<br/>{message}</p></div></div>";
+    let template = "<div class=\"rvt-timeline__item\"><div class=\"rvt-timeline__marker\" aria-hidden=\"true\"></div><div class=\"rvt-timeline__content\"><h2 class=\"rvt-timeline__heading\">Entry # {id}, written by {name}</h2><span class=\"rvt-timeline__date\">{created_at}</span><p>User's Website: {website}<br/>Message: {message}</p></div></div>";
     
     let results = '';
     
@@ -24,13 +24,15 @@
             let id = data[i].id;
             let name = data[i].name;
             let website_url = data[i].website_url;
+            let website_anchor = '<a href="'+website_url+'">' + website_url + '</a>';
             let message = data[i].message;
             let created_at = data[i].created_at;
 
+            
             results += template.replace('{id}', id)
                 .replace('{name}', name)
                 .replace('{created_at}', created_at)
-                .replace('{website}', website_url)
+                .replace('{website}', website_anchor)
                 .replace('{message}', message);
 
         }
