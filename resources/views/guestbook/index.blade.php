@@ -13,7 +13,7 @@
     //get data
     fetchGuestbookData().then(value => {
         let data = value.data;
-        let dataLength = data.length();
+        let dataLength = data.length;
         console.log(data);
         console.log(dataLength);
         //for each guestbook log, update template and append to guestbook-logs timeline component in content.
