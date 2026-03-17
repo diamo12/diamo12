@@ -1,6 +1,9 @@
 @extends('layouts.rivet')
 
 @section('content')
+<div class="rvt-prose">
+    <p>Welcome to the Guestbook! Read the entries by other visitors, or create your own entry!</p> <!--<a href='{{route('guestbook.create')}}'>-->
+</div>
 <div class="rvt-timeline rvt-m-all-md" id="guestbook-logs">
 </div>
 @endsection
