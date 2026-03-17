@@ -35,6 +35,7 @@
 
         }
         console.log(results);
+        console.log(document.getElementById('guestbook-logs'));
         document.getElementById('guestbook-logs').innerHtml = results;
     });
 
