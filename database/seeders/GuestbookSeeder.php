@@ -21,7 +21,7 @@ class GuestbookSeeder extends Seeder
                 'id' => 0,
                 'name' => 'diamo12',
                 'website_url' => 'https://diamo12.net',
-                'message' => 'A fun place for me to hang out on the internet.'
+                'message' => 'A fun place for me to hang out on the internet.',
                 'created_at' => $now,
                 'updated_at' => $now,
             ]
