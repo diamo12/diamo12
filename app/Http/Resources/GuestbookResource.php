@@ -17,7 +17,7 @@ class GuestbookResource extends JsonResource
         return [
             'id' => $this->id,
             'name' => $this->name,
-            'website-url' => $this->website-url,
+            'website_url' => $this->website_url,
             'message' => $this->message,
             'timestamps' => $this->timestamps,
         ];
