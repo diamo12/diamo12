@@ -6,7 +6,7 @@
 @endsection
 
 @push('js')
-<script type="text/javascript">
+<script type="text/javascript" defer>
     var timeline = document.getElementById('guestbook-logs').innerHtml;
     //set template
     let template = "<div class=\"rvt-timeline__item\"><div class=\"rvt-timeline__marker\" aria-hidden=\"true\"></div><div class=\"rvt-timeline__content\"><h2 class=\"rvt-timeline__heading\">ID:{id} Name:{name}</h2><span class=\"rvt-timeline__date\">{created_at}</span><p>{website-url}<br/>{message}</p></div></div>";
