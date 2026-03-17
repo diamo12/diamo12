@@ -9,12 +9,10 @@
 <script type="text/javascript">
     var timeline = document.getElementById('guestbook-logs');
     //get data
-    var results = '';
+    let results = fetchGuestbookData();
 
     //set template
     let template = "<div class=\"rvt-timeline__item\"><div class=\"rvt-timeline__marker\" aria-hidden=\"true\"></div><div class=\"rvt-timeline__content\"><h2 class=\"rvt-timeline__heading\">{name}</h2><span class=\"rvt-timeline__date\">{website-url}</span><p>{message}</p></div></div>";
-
-    fetchGuestbookData();
 
     if(results!=null) {
         //for each guestbook log, update template and append to guestbook-logs timeline component in content.
@@ -41,7 +39,7 @@
                 throw new Error(`HTTP error! Status: ${response.status}`);
             }
             const jsonData = await response.json(); // Parse the JSON data into a JS object
-            results = jsonData;
+            return jsonData;
         } catch (error) {
             console.error('Error fetching data:', error);
         }
