@@ -68,13 +68,13 @@
                                                     <ul class="rvt-header-menu__submenu-list">
                                                         <!-- Dropdown links -->
                                                         <li class="rvt-header-menu__item">
-                                                        <a class="rvt-header-menu__link" href="{{route('fallout.Randomizer')}}">Fallout Special Stat Randomizer</a>
+                                                        <a class="rvt-header-menu__link rvt-color-black" href="{{route('fallout.Randomizer')}}">Fallout Special Stat Randomizer</a>
                                                         </li>
                                                         <li class="rvt-header-menu__item rvt-m-left-none">
-                                                        <a class="rvt-header-menu__link" href="{{route('tip.Calculator')}}">Tip Calculator</a>
+                                                        <a class="rvt-header-menu__link rvt-color-black" href="{{route('tip.Calculator')}}">Tip Calculator</a>
                                                         </li>
                                                         <li class="rvt-header-menu__item rvt-m-left-none">
-                                                        <a class="rvt-header-menu__link" href="{{route('issTracker')}}">ISS Tracker</a>
+                                                        <a class="rvt-header-menu__link rvt-color-black" href="{{route('issTracker')}}">ISS Tracker</a>
                                                         </li>
                                                     </ul>
                                                 </div>
