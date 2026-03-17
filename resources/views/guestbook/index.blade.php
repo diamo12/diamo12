@@ -10,7 +10,7 @@
     var timeline = document.getElementById('guestbook-logs');
     //get data
     fetchGuestbookData().then(value => {
-        let results = value;
+        var results = value;
     });
 
     //set template
