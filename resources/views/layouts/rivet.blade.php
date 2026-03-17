@@ -93,8 +93,7 @@
             <footer class="rvt-footer-base">
                 <div class="rvt-container-lg">
                     <div class="rvt-footer-base__inner">
-                        <p>Get rekt, nerd.<p><br/>
-                        <p>@diamo12 2026</p>
+                        <p><a href="https://github.com/diamo12">@diamo12</a> 2026</p>
                     </div>
                 </div>
             </footer>
