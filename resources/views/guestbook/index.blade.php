@@ -5,7 +5,7 @@
 </div>
 @endsection
 
-@push(js)
+@push('js')
 <script type="text/javascript">
     var timeline = document.getElementByID('guestbook-logs');
     //get data
