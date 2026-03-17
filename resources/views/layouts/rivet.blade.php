@@ -70,10 +70,10 @@
                                                         <li class="rvt-header-menu__item">
                                                         <a class="rvt-header-menu__link" href="{{route('fallout.Randomizer')}}">Fallout Special Stat Randomizer</a>
                                                         </li>
-                                                        <li class="rvt-header-menu__item">
+                                                        <li class="rvt-header-menu__item rvt-m-left-none">
                                                         <a class="rvt-header-menu__link" href="{{route('tip.Calculator')}}">Tip Calculator</a>
                                                         </li>
-                                                        <li class="rvt-header-menu__item">
+                                                        <li class="rvt-header-menu__item rvt-m-left-none">
                                                         <a class="rvt-header-menu__link" href="{{route('issTracker')}}">ISS Tracker</a>
                                                         </li>
                                                     </ul>
