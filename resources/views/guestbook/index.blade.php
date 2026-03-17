@@ -8,7 +8,7 @@
 @push('js')
 <script type="text/javascript" defer>
     //set template
-    let template = "<div class=\"rvt-timeline__item\"><div class=\"rvt-timeline__marker\" aria-hidden=\"true\"></div><div class=\"rvt-timeline__content\"><h2 class=\"rvt-timeline__heading\">Entry # {id}, written by {name}</h2><span class=\"rvt-timeline__date\">{created_at}</span><p><strong>User's Website:</strong> {website}<br/><strong>Message:</strong> {message}</p></div></div>";
+    let template = "<div class=\"rvt-timeline__item\"><div class=\"rvt-timeline__marker\" aria-hidden=\"true\"></div><div class=\"rvt-timeline__content\"><h2 class=\"rvt-timeline__heading\">Entry #{id}, written by {name}</h2><span class=\"rvt-timeline__date\">{created_at}</span><p><strong>User's Website:</strong> {website}<br/><strong>Message:</strong> {message}</p></div></div>";
     
     let results = '';
     
