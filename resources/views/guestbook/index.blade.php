@@ -14,23 +14,10 @@
     fetchGuestbookData().then(value => {
         console.log(value);
         console.log(value.data);
+        data = JSON.parse(value.data);
+        console.log(data);
         //for each guestbook log, update template and append to guestbook-logs timeline component in content.
     });
-
-    if(results!=null) {
-        
-        
-        console.log(results);
-        
-        // results.foreach((result, index) => {
-        //     console.log(`Element at index ${index} is ${number}`);
-
-        // });
-    } else {
-        template = '<p>No guestbook logs to load... something must be wrong.</p>';
-
-        timeline.prepend(template);
-    }
 
     //utility functions
     async function fetchGuestbookData() {
