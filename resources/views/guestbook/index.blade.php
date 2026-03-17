@@ -8,9 +8,10 @@
 @push('js')
 <script type="text/javascript">
     var timeline = document.getElementById('guestbook-logs');
+    var results = "";
     //get data
     fetchGuestbookData().then(value => {
-        var results = value;
+        results = value;
     });
 
     //set template
