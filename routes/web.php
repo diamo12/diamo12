@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Models\Guestbook;
 
 Route::get('/', function () {
     return view('index');
@@ -15,7 +16,7 @@ Route::get('/issTracker', function () {
 })->name('issTracker');
 
 Route::get('/guestbook-logs', function () {
-    return new GuestbookResource::collection(Guestbook::all());
+    return Guestbook::all()->toResourceCollection();
 });
 
 Route::get('/fallout-randomizer', 'App\Http\Controllers\falloutRandomizer\FalloutRandomizerController@index')->name('fallout.Randomizer');
