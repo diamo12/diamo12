@@ -9,7 +9,10 @@
 <script type="text/javascript">
     var timeline = document.getElementById('guestbook-logs');
     //set template
-    let template = "<div class=\"rvt-timeline__item\"><div class=\"rvt-timeline__marker\" aria-hidden=\"true\"></div><div class=\"rvt-timeline__content\"><h2 class=\"rvt-timeline__heading\">{name}</h2><span class=\"rvt-timeline__date\">{website-url}</span><p>{message}</p></div></div>";
+    let template = "<div class=\"rvt-timeline__item\"><div class=\"rvt-timeline__marker\" aria-hidden=\"true\"></div><div class=\"rvt-timeline__content\"><h2 class=\"rvt-timeline__heading\">ID:{id} Name:{name}</h2><span class=\"rvt-timeline__date\">{created_at}</span><p>{website-url}<br/>{message}</p></div></div>";
+    
+    let results = '';
+    
     //get data
     fetchGuestbookData().then(value => {
         let data = value.data;
@@ -24,8 +27,14 @@
             let website_url = data[i].website_url;
             let message = data[i].message;
             let created_at = data[i].created_at;
-            console.log(id);
-            console.log(name);
+
+            results += template.replace('{id}', id)
+                .replace('{name}', name)
+                .replace('{created_at}', created_at)
+                .replace('{website_url}', website_url)
+                .replace('{message}', message);
+
+            timeline.innerHtml = results;
         }
     });
 
