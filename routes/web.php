@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Models\Guestbook;
-use App\Resources\GuestbookResource;
+use App\Http\Resources\GuestbookResource;
 
 Route::get('/', function () {
     return view('index');
