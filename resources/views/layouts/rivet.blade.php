@@ -64,7 +64,7 @@
                                                     </button>
                                                 </div>
                                                 <!-- Dropdown menu -->
-                                                <div class="rvt-header-menu__submenu rvt-dropdown__menu rvt-dropdown__menu--right" data-rvt-dropdown-menu="primary-nav-1" hidden>
+                                                <div class="rvt-header-menu__submenu rvt-dropdown__menu" data-rvt-dropdown-menu="primary-nav-1" hidden>
                                                     <ul class="rvt-header-menu__submenu-list">
                                                         <!-- Dropdown links -->
                                                         <li class="rvt-header-menu__item">
