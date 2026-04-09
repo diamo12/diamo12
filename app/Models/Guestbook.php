@@ -11,7 +11,7 @@ class Guestbook extends Model
     //
     protected $fillable = [
         'name',
-        'website-url',
+        'website_url',
         'message',
         'created_at',
         'updated_at'
