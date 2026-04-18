@@ -24,3 +24,4 @@ Route::get('/fallout-randomizer', 'App\Http\Controllers\falloutRandomizer\Fallou
 Route::get('/tip-calc', 'App\Http\Controllers\tipCalc\tipCalcController@index')->name('tip.Calculator');
 Route::get('/guestbook', 'App\Http\Controllers\guestbook\GuestbookController@index')->name('guestbook.index');
 Route::get('/guestbook/create', 'App\Http\Controllers\guestbook\GuestbookController@create')->name('guestbook.create');
+Route::get('/guestbook/store', 'App\Http\Controllers\guestbook\GuestbookController@store')->name('guestbook.store');
