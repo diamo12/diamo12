@@ -40,7 +40,7 @@
                         echo 'class="rvt-text-input"';
                     }
                         ?>
-                    >
+                    ></textarea>
                     <?php if($errors->has('message')) { display_validation_error_inline('message', $errors->get('message')); } ?>
                 </div>
             </div>
