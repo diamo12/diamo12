@@ -39,6 +39,6 @@ class GuestbookController extends Controller
             $this->error .= 'Guestbook entry was not created.';
         }
 
-        return redirect()->route('guestbook.edit', ['guestbook' => $guestbook->id])->with('success', $this->success)->with('error', $this->error);
+        return redirect()->route('guestbook.index', ['guestbook' => $guestbook->id])->with('success', $this->success)->with('error', $this->error);
     }
 }
